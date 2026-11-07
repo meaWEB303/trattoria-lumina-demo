@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#283a2f">
+    <meta name="description" content="Trattoria Lumina: cucina italiana contemporanea, piatti di stagione e una tavola accogliente. Demo commerciale con prezzi e contatti da confermare.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:site_name" content="Trattoria Lumina">
+    <meta property="og:title" content="Trattoria Lumina | Cucina italiana contemporanea · Demo">
+    <meta property="og:description" content="La tradizione italiana, con una luce nuova. Demo commerciale: informazioni da personalizzare.">
+    <meta property="og:image" content="assets/hero.webp">
+    <meta property="og:image:alt" content="Tagliatelle al ragù in una trattoria dalla luce calda">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Trattoria Lumina | Cucina italiana contemporanea · Demo</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+    <header class="site-header" id="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#home" aria-label="Trattoria Lumina, torna all'inizio">
+          <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+            <circle cx="22" cy="22" r="20.25"></circle>
+            <path d="M15 15v15h15"></path>
+            <path d="M24 13a5 5 0 0 1 10 0M29 5v2M22 8l1.5 1.5M36 8l-1.5 1.5"></path>
+          </svg>
+          <span class="brand-name"><span>TRATTORIA</span><b>Lumina</b></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Apri il menu">
+          <span></span><span></span>
+        </button>
+        <nav class="primary-nav" id="primary-navigation" aria-label="Navigazione principale">
+          <a href="#home">Home</a>
+          <a href="#cucina">La cucina</a>
+          <a href="#menu">Menu</a>
+          <a href="#storia">La nostra storia</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contatti">Contatti</a>
+          <a class="nav-cta" href="#prenota">Prenota un tavolo <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenuto">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/hero.webp" alt="Tagliatelle al ragù servite in una trattoria dalla luce calda" fetchpriority="high" width="1672" height="941">
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow eyebrow--light"><span class="hero-demo-badge">DEMO</span> Cucina italiana contemporanea</p>
+          <h1 id="hero-title">La tradizione italiana,<br><em>con una luce nuova.</em></h1>
+          <p class="hero-copy">Una cucina di gesti familiari, ingredienti di stagione e tavoli che invitano a restare.</p>
+          <div class="hero-actions">
+            <a class="button button--light" href="#prenota">Prenota un tavolo <span aria-hidden="true">↗</span></a>
+            <a class="text-link text-link--light" href="#menu">Scopri il menu <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+      </section>
+
+      <div class="demo-ribbon"><span>Demo commerciale</span><span>Testi, fotografie, prezzi e recapiti sono dimostrativi e da confermare prima della pubblicazione.</span></div>
+
+      <section class="quick-info" aria-label="Informazioni rapide della demo">
+        <div class="quick-fact"><span>Sede · DEMO</span><b>Indirizzo da definire</b></div>
+        <div class="quick-fact"><span>Orari · DEMO</span><b>Mar–Dom · 12:00–14:30 / 19:00–23:00</b></div>
+        <div class="quick-fact"><span>Menu · DEMO</span><b>Piatti e prezzi indicativi</b></div>
+        <a class="quick-info-link" href="#contatti">Recapiti e dettagli <span aria-hidden="true">↘</span></a>
+      </section>
+
+      <section class="section kitchen-section" id="cucina" aria-labelledby="kitchen-title">
+        <div class="kitchen-image-wrap reveal">
+          <img src="assets/ingredienti.webp" alt="Verdure, erbe fresche e ingredienti stagionali su un banco di cucina" loading="lazy" width="1024" height="1536">
+          <span class="image-caption">La stagione detta il ritmo.</span>
+        </div>
+        <div class="kitchen-copy reveal">
+          <p class="eyebrow">La cucina <span aria-hidden="true">·</span> Materia e gesti</p>
+          <h2 id="kitchen-title">La stagione cambia.<br><em>La cura resta.</em></h2>
+          <p class="lead">Ogni piatto comincia da ciò che la stagione offre davvero: materie prime riconoscibili, lavorazioni attente e ricette che lasciano parlare il sapore.</p>
+          <p>La tradizione è una guida, non una formula. Pasta fresca, cotture pazienti e piccoli dettagli costruiscono una cucina italiana fatta per essere condivisa.</p>
+          <div class="kitchen-values" aria-label="I valori della cucina">
+            <div><b>Stagionalità</b></div>
+            <div><b>Mani al lavoro</b></div>
+            <div><b>Gusto essenziale</b></div>
+          </div>
+          <a class="text-link" href="#menu">Un assaggio del menu <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="section plates-section" aria-labelledby="plates-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Dalla cucina <span aria-hidden="true">·</span> Piatti della casa</p>
+            <h2 id="plates-title">Gesti di cucina,<br><em>nel piatto.</em></h2>
+          </div>
+          <p>Una piccola selezione di piatti dimostrativi. Il menu cambia con la stagione e i prezzi sono da confermare.</p>
+        </div>
+        <div class="dish-grid">
+          <article class="dish-card dish-card--one reveal">
+            <div class="dish-photo"><img src="assets/risotto.webp" alt="Risotto cremoso al parmigiano con timo fresco" loading="lazy" width="1024" height="1536"></div>
+            <div class="dish-info"><div><h3>Risotto al parmigiano</h3><p>Crema morbida, timo fresco e una mantecatura gentile.</p></div><div class="dish-price">€ 16<small>prezzo demo</small></div></div>
+          </article>
+          <article class="dish-card dish-card--two reveal">
+            <div class="dish-photo"><img src="assets/ravioli.webp" alt="Ravioli fatti a mano con ricotta, erbe e salvia" loading="lazy" width="1024" height="1536"></div>
+            <div class="dish-info"><div><h3>Ravioli ricotta ed erbe</h3><p>Sfoglia sottile, burro, salvia e ricotta delicata.</p></div><div class="dish-price">€ 15<small>prezzo demo</small></div></div>
+          </article>
+          <article class="dish-card dish-card--three reveal">
+            <div class="dish-photo"><img src="assets/tiramisu.webp" alt="Tiramisù della casa con strati di crema e cacao" loading="lazy" width="1024" height="1536"></div>
+            <div class="dish-info"><div><h3>Tiramisù della casa</h3><p>Crema soffice, caffè e cacao amaro.</p></div><div class="dish-price">€ 7<small>prezzo demo</small></div></div>
+          </article>
+        </div>
+        <p class="price-note">Prezzi puramente dimostrativi · da verificare e confermare con il ristorante.</p>
+      </section>
+
+      <section class="menu-section" id="menu" aria-labelledby="menu-title">
+        <div class="menu-intro reveal">
+          <p class="eyebrow eyebrow--light">Il menu <span aria-hidden="true">·</span> La carta</p>
+          <h2 id="menu-title">Una carta breve,<br><em>fatta per scegliere.</em></h2>
+          <p>Una proposta dimostrativa da aggiornare con i piatti, i prezzi e le disponibilità reali della trattoria.</p>
+          <a class="text-link text-link--light menu-booking-link" href="#prenota">Chiedi un tavolo <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="menu-detail reveal">
+          <div class="menu-tabs" role="tablist" aria-label="Categorie del menu">
+            <button role="tab" id="tab-antipasti" aria-controls="panel-antipasti" aria-selected="true" tabindex="0">Antipasti</button>
+            <button role="tab" id="tab-primi" aria-controls="panel-primi" aria-selected="false" tabindex="-1">Primi piatti</button>
+            <button role="tab" id="tab-secondi" aria-controls="panel-secondi" aria-selected="false" tabindex="-1">Secondi piatti</button>
+            <button role="tab" id="tab-contorni" aria-controls="panel-contorni" aria-selected="false" tabindex="-1">Contorni</button>
+            <button role="tab" id="tab-dolci" aria-controls="panel-dolci" aria-selected="false" tabindex="-1">Dolci</button>
+            <button role="tab" id="tab-bevande" aria-controls="panel-bevande" aria-selected="false" tabindex="-1">Bevande</button>
+          </div>
+          <div class="menu-panels">
+            <section class="menu-panel" id="panel-antipasti" role="tabpanel" aria-labelledby="tab-antipasti" tabindex="0">
+              <h3>Per cominciare</h3>
+              <article class="menu-item"><div><h4>Crostino del giorno</h4><p>Pane tostato, crema di verdure ed erbe aromatiche.</p></div><span>€ 10</span></article>
+              <article class="menu-item"><div><h4>Carciofo alla brace</h4><p>Limone, olio buono e prezzemolo.</p></div><span>€ 12</span></article>
+              <article class="menu-item"><div><h4>Selezione della casa</h4><p>Piccoli assaggi da condividere al centro.</p></div><span>€ 14</span></article>
+            </section>
+            <section class="menu-panel" id="panel-primi" role="tabpanel" aria-labelledby="tab-primi" tabindex="0" hidden>
+              <h3>La pasta e il riso</h3>
+              <article class="menu-item"><div><h4>Tagliatelle al ragù</h4><p>Pasta fresca e ragù cotto lentamente.</p></div><span>€ 16</span></article>
+              <article class="menu-item"><div><h4>Risotto al parmigiano</h4><p>Timo fresco e mantecatura tradizionale.</p></div><span>€ 16</span></article>
+              <article class="menu-item"><div><h4>Ravioli ricotta ed erbe</h4><p>Sfoglia sottile, burro e salvia.</p></div><span>€ 15</span></article>
+            </section>
+            <section class="menu-panel" id="panel-secondi" role="tabpanel" aria-labelledby="tab-secondi" tabindex="0" hidden>
+              <h3>Il piatto principale</h3>
+              <article class="menu-item"><div><h4>Brasato al vino rosso</h4><p>Cottura lenta, fondo ristretto e polenta morbida.</p></div><span>€ 22</span></article>
+              <article class="menu-item"><div><h4>Pollo al limone</h4><p>Erbe aromatiche e fondo leggero.</p></div><span>€ 19</span></article>
+              <article class="menu-item"><div><h4>Proposta del giorno</h4><p>Chiedi al personale la disponibilità.</p></div><span>€ 21</span></article>
+            </section>
+            <section class="menu-panel" id="panel-contorni" role="tabpanel" aria-labelledby="tab-contorni" tabindex="0" hidden>
+              <h3>Da mettere al centro</h3>
+              <article class="menu-item"><div><h4>Patate al forno</h4><p>Rosmarino e sale marino.</p></div><span>€ 6</span></article>
+              <article class="menu-item"><div><h4>Verdure di stagione</h4><p>Preparazione del giorno.</p></div><span>€ 7</span></article>
+              <article class="menu-item"><div><h4>Insalata dell'orto</h4><p>Foglie fresche e vinaigrette leggera.</p></div><span>€ 6</span></article>
+            </section>
+            <section class="menu-panel" id="panel-dolci" role="tabpanel" aria-labelledby="tab-dolci" tabindex="0" hidden>
+              <h3>Un finale gentile</h3>
+              <article class="menu-item"><div><h4>Tiramisù della casa</h4><p>Crema, caffè e cacao amaro.</p></div><span>€ 7</span></article>
+              <article class="menu-item"><div><h4>Crostata del giorno</h4><p>Frolla friabile e frutta di stagione.</p></div><span>€ 7</span></article>
+              <article class="menu-item"><div><h4>Frutta fresca</h4><p>Selezione di stagione.</p></div><span>€ 6</span></article>
+            </section>
+            <section class="menu-panel" id="panel-bevande" role="tabpanel" aria-labelledby="tab-bevande" tabindex="0" hidden>
+              <h3>Da bere</h3>
+              <article class="menu-item"><div><h4>Acqua naturale o frizzante</h4><p>In bottiglia di vetro.</p></div><span>€ 3</span></article>
+              <article class="menu-item"><div><h4>Calice del giorno</h4><p>La selezione cambia con la carta.</p></div><span>€ 8</span></article>
+              <article class="menu-item"><div><h4>Caffè</h4><p>Espresso.</p></div><span>€ 2</span></article>
+            </section>
+            <p class="menu-disclaimer">Voci e prezzi sono esempi dimostrativi, da verificare con il ristorante. Per ingredienti e allergeni, chiedi al personale: le informazioni devono essere confermate prima della pubblicazione.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section" id="storia" aria-labelledby="story-title">
+        <div class="story-image reveal">
+          <img src="assets/sala.webp" alt="Sala accogliente con tavoli in legno e luci calde" loading="lazy" width="1536" height="1024">
+          <div class="story-image-label"><span>La sala · immagine demo</span><b>TRATTORIA LUMINA</b></div>
+        </div>
+        <div class="story-copy reveal">
+          <p class="eyebrow">La nostra storia <span aria-hidden="true">·</span> Ospitalità</p>
+          <h2 id="story-title">Una tavola,<br>una storia,<br><em>tante persone.</em></h2>
+          <p class="lead">Il pane al centro, un piatto che passa di mano, il tempo che si allunga tra una portata e l'altra. Una casa si riconosce prima dai gesti che dai racconti.</p>
+          <p>Questo testo è dimostrativo. Qui il ristoratore aggiungerà persone, luoghi e passaggi autentici della propria storia.</p>
+          <a class="text-link" href="#contatti">Vieni a trovarci <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="gallery-section section" id="gallery" aria-labelledby="gallery-title">
+        <div class="gallery-heading reveal">
+          <div><p class="eyebrow">Gallery <span aria-hidden="true">·</span> Dentro Lumina</p><h2 id="gallery-title">Tra il mercato,<br><em>la cucina e la sala.</em></h2></div>
+          <p>Ingredienti, mani al lavoro e dettagli della tavola. Tocca una fotografia per vederla più da vicino.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-item--large reveal" type="button" data-image="assets/carciofi.webp" data-alt="Carciofi alla brace con limone e erbe" data-caption="Il piatto del giorno" aria-label="Ingrandisci: carciofi alla brace con limone ed erbe">
+            <img src="assets/carciofi.webp" alt="Carciofi alla brace con limone ed erbe su un piatto in ceramica" loading="lazy" width="1536" height="1024"><span class="gallery-label">Il piatto del giorno <b aria-hidden="true">↗</b></span>
+          </button>
+          <button class="gallery-item gallery-item--tall reveal" type="button" data-image="assets/sala-dettaglio.webp" data-alt="Un angolo raccolto della sala, illuminato da una lampada calda" data-caption="La sala, al calare della sera" aria-label="Ingrandisci: un angolo raccolto della sala">
+            <img src="assets/sala-dettaglio.webp" alt="Un angolo raccolto della sala, illuminato da una lampada calda" loading="lazy" width="1024" height="1536"><span class="gallery-label">La sala, al calare della sera <b aria-hidden="true">↗</b></span>
+          </button>
+          <button class="gallery-item gallery-item--wide reveal" type="button" data-image="assets/tavola.webp" data-alt="Tavola apparecchiata con tovaglia chiara, piatti in ceramica e bicchieri" data-caption="Pronti ad accoglierti" aria-label="Ingrandisci: tavola apparecchiata">
+            <img src="assets/tavola.webp" alt="Tavola apparecchiata con tovaglia chiara, piatti in ceramica e bicchieri" loading="lazy" width="1536" height="1024"><span class="gallery-label">Pronti ad accoglierti <b aria-hidden="true">↗</b></span>
+          </button>
+          <button class="gallery-item gallery-item--small reveal" type="button" data-image="assets/mercato.webp" data-alt="Ortaggi freschi ed erbe di stagione in una cassetta di legno" data-caption="La stagione, ogni mattina" aria-label="Ingrandisci: ortaggi freschi ed erbe di stagione">
+            <img src="assets/mercato.webp" alt="Ortaggi freschi ed erbe di stagione in una cassetta di legno" loading="lazy" width="1536" height="1024"><span class="gallery-label">La stagione, ogni mattina <b aria-hidden="true">↗</b></span>
+          </button>
+          <button class="gallery-item gallery-item--wide reveal" type="button" data-image="assets/sfoglia.webp" data-alt="Mani che tagliano pasta fresca su un piano di legno infarinato" data-caption="La pasta, fatta a mano" aria-label="Ingrandisci: mani al lavoro sulla pasta fresca">
+            <img src="assets/sfoglia.webp" alt="Mani che tagliano pasta fresca su un piano di legno infarinato" loading="lazy" width="1536" height="1024"><span class="gallery-label">La pasta, fatta a mano <b aria-hidden="true">↗</b></span>
+          </button>
+          <button class="gallery-item gallery-item--small reveal" type="button" data-image="assets/olio.webp" data-alt="Un filo d'olio completa un piatto di pasta fresca" data-caption="L'ultimo gesto in cucina" aria-label="Ingrandisci: un filo d'olio completa un piatto">
+            <img src="assets/olio.webp" alt="Un filo d'olio completa un piatto di pasta fresca" loading="lazy" width="1024" height="1536"><span class="gallery-label">L'ultimo gesto in cucina <b aria-hidden="true">↗</b></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="booking-section" id="prenota" aria-labelledby="booking-title">
+        <div class="booking-intro reveal">
+          <p class="eyebrow">Prenotazioni <span aria-hidden="true">·</span> Il tuo tavolo</p>
+          <h2 id="booking-title" tabindex="-1">Facciamo<br><em>spazio a tavola.</em></h2>
+          <p>Dicci quando vorresti venire. In questa demo la richiesta non viene inviata e nessun tavolo è confermato: collega qui il servizio di prenotazione del ristorante.</p>
+          <div class="booking-hours"><span class="hours-icon" aria-hidden="true">◷</span><div><b>Orari demo</b><span>Mar–Dom · 12:00–14:30 / 19:00–23:00</span></div></div>
+        </div>
+        <div class="booking-form-wrap reveal">
+          <p class="form-demo-note" id="booking-demo-note"><span aria-hidden="true">i</span> Modulo dimostrativo · non invia i tuoi dati</p>
+          <form id="booking-form" aria-describedby="booking-demo-note">
+            <div class="form-grid">
+              <p class="required-note"><span aria-hidden="true">*</span> Campi obbligatori</p>
+              <label><span class="field-label">Nome e cognome <span class="required-mark" aria-hidden="true">*</span></span><input name="name" autocomplete="name" required placeholder="Il tuo nome"></label>
+              <label><span class="field-label">Email <span class="required-mark" aria-hidden="true">*</span></span><input type="email" name="email" autocomplete="email" required placeholder="nome@email.it"></label>
+              <label><span class="field-label">Telefono <span class="required-mark" aria-hidden="true">*</span></span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" minlength="6" maxlength="24" pattern="[+0-9() .-]{6,24}" required placeholder="Es. +39 333 123 4567"></label>
+              <label><span class="field-label">Persone <span class="required-mark" aria-hidden="true">*</span></span><select name="guests" required><option value="" disabled selected>Seleziona</option><option>1 persona</option><option>2 persone</option><option>3 persone</option><option>4 persone</option><option>5 persone</option><option>6 o più</option></select></label>
+              <label><span class="field-label">Data <span class="required-mark" aria-hidden="true">*</span></span><input type="date" name="date" id="booking-date" required></label>
+              <label><span class="field-label">Orario <span class="required-mark" aria-hidden="true">*</span></span><select name="time" required><option value="" disabled selected>Seleziona</option><option>12:00</option><option>12:30</option><option>13:00</option><option>13:30</option><option>19:00</option><option>19:30</option><option>20:00</option><option>20:30</option><option>21:00</option></select></label>
+              <label class="form-notes"><span class="field-label">Note <span class="optional-mark">Facoltative</span></span><textarea name="notes" rows="3" placeholder="Un'occasione speciale o una preferenza?"></textarea></label>
+            </div>
+            <button class="button button--forest form-submit" type="submit" disabled>Invia richiesta <span aria-hidden="true">↗</span></button>
+            <noscript><p class="form-noscript">Modulo demo non disponibile senza JavaScript. I dati non vengono inviati.</p></noscript>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            <p class="form-footnote">Demo senza backend: i dati restano in questa pagina e non vengono trasmessi o salvati.</p>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contatti" aria-labelledby="contact-title">
+        <div class="contact-top">
+          <div><p class="eyebrow eyebrow--light">Contatti <span aria-hidden="true">·</span> Visita</p><h2 id="contact-title">Ti teniamo<br><em>un posto.</em></h2></div>
+          <p>Qui trovi le informazioni essenziali. Indirizzo, recapiti e orari sono segnaposto dimostrativi da sostituire prima della pubblicazione.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card"><span class="contact-label">Dove siamo · DEMO</span><b>Indirizzo da definire</b><span>Città e indicazioni da confermare<br>Nessuna mappa finché la sede non è verificata</span></div>
+          <div class="contact-card"><span class="contact-label">Scrivici · DEMO</span><b>Email da configurare</b><span>Recapito dimostrativo<br>Sostituire con l'indirizzo reale</span></div>
+          <div class="contact-card"><span class="contact-label">Chiamaci · DEMO</span><b>Numero da verificare</b><span>Il collegamento telefonico sarà attivato<br>quando il numero sarà confermato</span></div>
+          <div class="contact-card"><span class="contact-label">Quando · DEMO</span><b>Mar–Dom</b><span>12:00–14:30<br>19:00–23:00 · da confermare</span></div>
+        </div>
+        <div class="contact-bottom"><span>Ci trovi intorno a una buona tavola.</span><a href="#prenota">Chiedi un tavolo <span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand brand--footer" href="#home" aria-label="Trattoria Lumina, torna all'inizio">
+        <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+          <circle cx="22" cy="22" r="20.25"></circle>
+          <path d="M15 15v15h15"></path>
+          <path d="M24 13a5 5 0 0 1 10 0M29 5v2M22 8l1.5 1.5M36 8l-1.5 1.5"></path>
+        </svg>
+        <span class="brand-name"><span>TRATTORIA</span><b>Lumina</b></span>
+      </a>
+      <p>Una trattoria contemporanea.<br>Una demo da personalizzare con la tua storia.</p>
+      <nav aria-label="Navigazione footer"><a href="#cucina">La cucina</a><a href="#menu">Menu</a><a href="#storia">La storia</a><a href="#contatti">Contatti</a></nav>
+      <span class="footer-credit">© <span id="year">2026</span> Trattoria Lumina · Demo commerciale</span>
+    </footer>
+
+    <a class="mobile-booking-cta" href="#prenota">Prenota un tavolo <span aria-hidden="true">↗</span></a>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Immagine ingrandita">
+      <div class="lightbox-frame">
+        <button class="lightbox-close" type="button" aria-label="Chiudi immagine">×</button>
+        <img id="lightbox-image" alt="Immagine ingrandita dalla galleria">
+        <p id="lightbox-caption"></p>
+      </div>
+    </dialog>
+  </body>
+</html>
+
